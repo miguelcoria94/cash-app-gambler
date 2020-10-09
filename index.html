@@ -102,12 +102,14 @@
                 </div>
                 <div class="row justify-content-around mb-5">
                     <div class="card border-success mb-3 ml-3 mr-3" style="max-width: 18rem;">
-                        <div class="card-header">Header</div>
+                        <div class="card-header font-weight-bold text-muted">Your prediction</div>
                         <div class="card-body text-success">
-                            <h5 class="card-title">Success card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's
-                                content.</p>
+                            <h5 class="card-title">Pick a number between 1 and 100</h5>
+                            <h1 id="user-number">0</h1>
+                            <form class="range-field my-4 w-25">
+                                <input id="range" type="range" min="0" max="100" />
+                            </form>
+                            <p class="card-text">Good Luck! 🤞</p>
                         </div>
                     </div>
                     <div class="card border-success mb-3 ml-3 mr-3" style="max-width: 18rem;">
@@ -195,6 +197,17 @@
             moneyText.innerHTML = `There's only $${moneyLeft} left.`
         }
         setInterval(changeMessage, 2500)
+
+        let number = document.querySelector("#user-number")
+
+        let change = document.querySelector("#range")
+
+        
+        change.addEventListener("input", event =>{
+            number.innerHTML = change.value
+        }, false)
+
+        
 
     </script>
 </body>
