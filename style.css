@@ -2,6 +2,11 @@ body {
     background-color: #28c101 !important;
 }
 
+.user-input {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
 #navbar-font {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
@@ -55,6 +60,8 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
          width: 80%;
           height: 100%;
         }
+
+
         .confetti {
           width: 15px;
           height: 15px;
