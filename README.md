@@ -1,4 +1,4 @@
 # cash-app-gambler
 
-https://miguelcoria94.github.io/cash-app-gambler-prototype/
+https://miguelcoria94.github.io/cash-app-gambler
 ## Description
