@@ -138,3 +138,95 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     transform: translate3d(4px, 0, 0);
   }
 }
+
+@media only screen and (max-width: 960px) {
+  h1 {
+    font-size: 1.2rem !important;
+  }
+
+  .card {
+    width: 100% !important;
+  }
+
+  #clockdiv {
+    width: 100%;
+  }
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
+.image-grid {
+  padding: 12px;
+}
+
+.image-row {
+  display: flex;  
+}
+
+.image-row .image {
+  margin: 12px;
+  height: 240px;  
+}
+
+.image { 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 
+              0 6px 20px rgba(0, 0, 0, 0.15),
+              0 6px 20px rgba(0, 0, 0, 0.7);
+}
+
+.image-01 {
+  background-image: url('/images/1.jpg'); 
+  flex: 1;  
+}
+
+.image-02 {
+  background-image: url('/images/2.jpg'); 
+  flex: 1;  
+}
+
+.image-03 {
+  background-image: url('/images/3.jpg');  
+  flex: 2;  
+}
+
+.image-04 {
+  background-image: url('/images/4.jpeg'); 
+  flex: 1;
+}
+
+.image-05 {
+  background-image: url('/images/5.jpg');
+  flex: 2;
+}
+
+.image-06 {
+  background-image: url('/images/6.jpg');  
+  flex: 2;
+}
+
+.image-07 {
+  background-image: url('/images/7.jpg'); 
+  flex: 1;
+}
+
+.image-08 {
+  background-image: url('/images/8.jpg');  
+  flex: 3;
+}
+
+
+@media screen and (max-width: 400px) {
+  .image-row {
+    flex-direction: column;
+  }
+  
+  .image-row .image {
+    flex-basis: auto;
+  }
+}
