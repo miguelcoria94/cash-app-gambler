@@ -181,42 +181,42 @@ html {
 }
 
 .image-01 {
-  background-image: url('/images/1.jpg'); 
+  background-image: url('./images/1.jpg'); 
   flex: 1;  
 }
 
 .image-02 {
-  background-image: url('/images/2.jpg'); 
+  background-image: url('./images/2.jpg'); 
   flex: 1;  
 }
 
 .image-03 {
-  background-image: url('/images/3.jpg');  
+  background-image: url('./images/3.jpg');  
   flex: 2;  
 }
 
 .image-04 {
-  background-image: url('/images/4.jpeg'); 
+  background-image: url('./images/4.jpeg'); 
   flex: 1;
 }
 
 .image-05 {
-  background-image: url('/images/5.jpg');
+  background-image: url('./images/5.jpg');
   flex: 2;
 }
 
 .image-06 {
-  background-image: url('/images/6.jpg');  
+  background-image: url('./images/6.jpg');  
   flex: 2;
 }
 
 .image-07 {
-  background-image: url('/images/7.jpg'); 
+  background-image: url('./images/7.jpg'); 
   flex: 1;
 }
 
 .image-08 {
-  background-image: url('/images/8.jpg');  
+  background-image: url('./images/8.jpg');  
   flex: 3;
 }
 
