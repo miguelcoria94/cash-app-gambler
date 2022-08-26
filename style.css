@@ -1,9 +1,9 @@
 body {
-    background-color: #28c101 !important;
+    background-color: #ff9a91 !important;
 }
 
 .user-input {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 10px;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 #special-h1{
-  color: #396;
+  color: #6999b4;
   font-weight: 100;
   font-size: 40px;
   margin: 40px 0px 20px;
@@ -34,21 +34,23 @@ body {
     font-weight: 100;
     text-align: center;
     font-size: 30px;
-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 #clockdiv > div{
     padding: 10px;
     border-radius: 3px;
-    background: #28a745;
+    background: #95c3de;
     display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 #clockdiv div > span{
     padding: 15px;
     border-radius: 3px;
-    background: #34c920;
+    background: #6999b4;
     display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .smalltext{
